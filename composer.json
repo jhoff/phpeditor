@@ -1,0 +1,29 @@
+{
+    "name": "jhoff/phpeditor",
+    "description": "Library for editing PHP files",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "^5.0",
+        "nikic/php-parser": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1",
+        "squizlabs/php_codesniffer": "^3.2",
+        "phpmd/phpmd": "^2.6"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Jhoff\\PhpEditor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
