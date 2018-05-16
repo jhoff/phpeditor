@@ -163,7 +163,7 @@ class File
      * @param string $contents
      * @param array $docblock
      *
-     * @return boolean
+     * @return $this
      */
     public function addPrivateMethod(string $method, string $contents, array $docblock = [])
     {
@@ -177,7 +177,7 @@ class File
      * @param string $contents
      * @param array $docblock
      *
-     * @return boolean
+     * @return $this
      */
     public function addProtectedMethod(string $method, string $contents, array $docblock = [])
     {
@@ -191,7 +191,7 @@ class File
      * @param string $contents
      * @param array $docblock
      *
-     * @return boolean
+     * @return $this
      */
     public function addPublicMethod(string $method, string $contents, array $docblock = [])
     {
