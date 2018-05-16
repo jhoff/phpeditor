@@ -13,6 +13,7 @@ Simplified, opinionated php-based editor for [PSR-4](https://www.php-fig.org/psr
 <!-- MarkdownTOC autolink="true" autoanchor="true" bracket="round" -->
 
 - [About](#about)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Docblocks](#docblocks)
 
@@ -22,6 +23,13 @@ Simplified, opinionated php-based editor for [PSR-4](https://www.php-fig.org/psr
 ## About
 
 The PHPEditor library is useful for making minor changes to existing PSR4 PHP files. It's assumed that each file will have a single namespaced class. New methods will be added to the end of the class. Use statements will automatically be de-duplicated and sorted by length.
+
+<a id="installation"></a>
+## Installation
+
+Use [composer](https://getcomposer.org/) to install:
+
+    composer require jhoff/phpeditor
 
 <a id="usage"></a>
 ## Usage

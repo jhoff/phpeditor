@@ -201,7 +201,7 @@ class File
     /**
      * Add a use statement to the class, lazily at the beginning
      *
-     * @return boolean
+     * @return $this
      */
     public function addUse()
     {
