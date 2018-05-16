@@ -3,7 +3,7 @@
     "description": "Library for editing PHP files",
     "license": "MIT",
     "require": {
-        "php": "^7.0",
+        "php": "^7.1",
         "illuminate/support": "^5.0",
         "nikic/php-parser": "^4.0"
     },
